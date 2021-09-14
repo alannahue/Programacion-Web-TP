@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+        " header header header" 
+        "main main main"   
+        "footer footer footer"    
+    ;
+}
+header{
+    grid-area: header;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+header .logo{
+    font-size: xx-large;
+    margin:15px;
+    text-align: center;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+header li {
+    list-style: none;
+    margin: 15px;
+    padding: 15px;
+}
+
+
+footer{
+    grid-area:footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+footer .redes i{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin:10px;
+
+}

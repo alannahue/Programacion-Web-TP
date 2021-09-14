@@ -1,0 +1,19 @@
+.formulario__inscripcion{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin:0 auto;
+}
+
+.form1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.form2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
