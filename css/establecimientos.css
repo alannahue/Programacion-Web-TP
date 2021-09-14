@@ -1,0 +1,38 @@
+main{
+    padding:15px;
+  }
+  main h2{
+    text-align:center;
+  }
+  .busqueda{
+    width:80%;
+    margin:0 auto;
+  }
+  .busqueda input{
+    width:100%;
+    margin:0 auto;
+  }
+  .establecimientos{
+   display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-rows: 180px;
+      gap:15px;
+      margin-top:10px;
+  }
+  .imagen_establecimiento{
+    width:250px;
+    height:180px;
+    background-color:black;
+    border-radius:6px;
+  }
+  .datos_establecimiento{
+    
+    
+  }
+  .boton {
+    background-color:black;
+    color:white;
+    display:inline;
+    padding:5px;
+    border-radius:4px;
+  }
