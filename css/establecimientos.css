@@ -1,5 +1,6 @@
 main{
     padding:15px;
+    grid-area: main;
   }
   main h2{
     text-align:center;
@@ -26,13 +27,15 @@ main{
     border-radius:6px;
   }
   .datos_establecimiento{
-    
+    display:flex;
+    flex-direction: column;
     
   }
   .boton {
     background-color:black;
     color:white;
-    display:inline;
+    width: 8%;
+    margin-top:15px;
     padding:5px;
     border-radius:4px;
   }

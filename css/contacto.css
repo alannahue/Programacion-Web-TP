@@ -1,0 +1,8 @@
+.contacto{
+    display:flex;
+    flex-direction:row;
+  }
+  .formulario{
+  
+    width:50%;
+  }

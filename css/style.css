@@ -11,11 +11,15 @@ body{
     ;
 }
 header{
+    height: 110px;
+    margin-top: 46px;
+    margin-bottom: 36px;
     grid-area: header;
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background: url(../img/fondo.png) repeat-x center left;
+  
     }
 header .logo{
     font-size: xx-large;
@@ -23,22 +27,36 @@ header .logo{
     text-align: center;
 }
 header ul{
+
     display: flex;
     flex-direction: row;
+
 }
 header li {
     list-style: none;
     margin: 15px;
     padding: 15px;
+
 }
 
+header a{
+    text-decoration: none;
+    color: black;
+
+}
+header a:hover{
+    text-decoration: none;
+    color: red;
+}
 
 footer{
     grid-area:footer;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: blueviolet;
+    background-color: black;
+    color:white;
+    padding-top:2% ;
 }
 footer .redes i{
     display: flex;
