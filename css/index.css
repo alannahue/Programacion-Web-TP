@@ -1,4 +1,14 @@
-
+.header{
+    display: flex;
+    flex-direction: column ;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+.redes-header i{
+    font-size: 1px;
+}
 
 .titulo{
     text-align: center;
@@ -6,9 +16,22 @@
 }
 .seleccion{
     display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+.imagen-persona{
+    width: 260px;
+    height: 340px;
+    padding:5px;
 }
 .pie--imagen{
     text-align: center;
+    margin-top: 5px;
 
 }
 .seleccion img{
@@ -16,7 +39,15 @@
     height: 280px;
 
 }
-
+.imagen-1{
+    background-color: #4BC5CC;
+}
+.imagen-2{
+    background-color: #CC0180;
+}
+.imagen-3{
+    background-color:#21FF8E;
+}
 .formulario__inscripcion{
     display: flex;
     flex-direction: row;
