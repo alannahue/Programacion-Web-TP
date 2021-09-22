@@ -1,8 +1,28 @@
+
+
+.titulo{
+    text-align: center;
+    margin:10px 0 10px 0; 
+}
+.seleccion{
+    display: flex;
+}
+.pie--imagen{
+    text-align: center;
+
+}
+.seleccion img{
+    width: 250px;
+    height: 280px;
+
+}
+
 .formulario__inscripcion{
     display: flex;
     flex-direction: row;
     width: 80%;
     margin:0 auto;
+    background-color: gray;
 }
 
 .form1{
