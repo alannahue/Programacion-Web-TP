@@ -48,6 +48,28 @@ article{
 .imagen-3{
     background-color:#21FF8E;
 }
+.datos{
+    display: flex;
+    gap:8px;
+}
+.sede{
+   width: calc(25%-10px);
+
+}
+.sede img{
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+}
+.sede p{
+    position: relative;
+    bottom: 80px;
+    background-color: #ff8595;
+    padding: 10px 5px 10px 0;
+    border-radius: 0 20px 20px 0;
+    width: 40%;
+}
+
 .formulario__inscripcion{
     display: flex;
     flex-direction: row;
@@ -67,4 +89,13 @@ article{
     display: flex;
     flex-direction: column;
     margin: 10px;
+}
+
+@media (max-width:420px){
+    .datos{
+        display: flex;
+        flex-direction: column;
+        margin:  0 auto;
+    }
+
 }
