@@ -50,16 +50,24 @@ article{
 }
 .datos{
     display: flex;
-    gap:8px;
+    
 }
 .sede{
-   width: calc(25%-10px);
-
+   width: calc(25%);
+   
 }
+
 .sede img{
-    width: 320px;
-    height: 180px;
-    border-radius: 20px;
+    width: 100%;
+    opacity: 0.4;
+    position: relative;
+    
+}
+.sede img:hover{
+    scale: 1.2;
+    opacity: 1;
+    z-index: 3;
+    
 }
 .sede p{
     position: relative;
@@ -69,6 +77,27 @@ article{
     border-radius: 0 20px 20px 0;
     width: 40%;
 }
+.establecimientos_mapas{
+    display: flex;
+}
+.mapas{
+    width: calc(25%);
+    margin-bottom: 10px;
+    border-color: black;
+    border: 1px solid #ff8595;
+    
+ }
+ .mapas:hover{
+     scale: 1.2;
+ }
+ .mapas iframe{
+    width: 100%;
+    height: 100%;
+ }
+ .mapas p{
+     text-align: center;
+     background-color:#ff8595;
+ }
 
 .formulario__inscripcion{
     display: flex;
@@ -91,11 +120,25 @@ article{
     margin: 10px;
 }
 
-@media (max-width:420px){
+@media (max-width:360px){
+    .inscribite{
+        margin:0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .datos{
         display: flex;
         flex-direction: column;
         margin:  0 auto;
     }
+  
+    .sede img{
+        width: 65%;
+        opacity: 0.4;
+        
+    }
+
 
 }
