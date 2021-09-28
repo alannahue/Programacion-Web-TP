@@ -1,15 +1,3 @@
-.header{
-    display: flex;
-    flex-direction: column ;
-}
-.logo{
-    display: flex;
-    justify-content: space-around;
-}
-.redes-header i{
-    font-size: 1px;
-}
-
 .titulo{
     text-align: center;
     margin:10px 0 10px 0; 
@@ -81,8 +69,8 @@ article{
     display: flex;
 }
 .mapas{
-    width: calc(25%);
-    margin-bottom: 10px;
+    width: calc(25%)-5px;
+    margin-bottom: 5px;
     border-color: black;
     border: 1px solid #ff8595;
     
@@ -96,17 +84,29 @@ article{
  }
  .mapas p{
      text-align: center;
-     background-color:#ff8595;
+     background-color:#4BC5CC;
  }
 
 .formulario__inscripcion{
     display: flex;
     flex-direction: row;
     width: 80%;
-    margin:0 auto;
+    margin:30px auto;
     background-color: gray;
 }
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin:0.5em;
+}
+input[type=submit]{
+    margin: 20px;
+    border-radius: 50px;
+    width: 100px;
+    align-self: center;
 
+    
+}
 .form1{
     width: 50%;
     display: flex;
