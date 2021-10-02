@@ -1,41 +1,62 @@
-.titulo{
+.carousell img {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.titulo h3{
+    font-size: 3em;
     text-align: center;
     margin:10px 0 10px 0; 
-}
-.seleccion{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 article{
     display: flex;
     justify-content: center;
 }
-.imagen-persona{
-    width: 260px;
-    height: 340px;
-    padding:5px;
-}
-.pie--imagen{
-    text-align: center;
+.seleccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 5px;
 
 }
-.seleccion img{
-    width: 250px;
-    height: 280px;
+.seleccion p{
+    font-size: 1.2em;
+    margin: 1em;
+    padding:1em;
+    border-radius: 20px;
+   
+}
+
+.icono{
+    width: 20em;
+    height: 20em;
+    margin:0.9em;
+    border-radius:50%;
+}
+.icono i{
+    font-size: 10em;
+    margin:auto;
+    color:white;
+    position: relative;
+    top: 0.5em;
+    left: 0.5em;
+}
+
+.bg-1{
+    background-color:#4BC5CC;
 
 }
-.imagen-1{
-    background-color: #4BC5CC;
+.bg-2{
+    background-color:#519599;
+
 }
-.imagen-2{
-    background-color: #CC0180;
+.bg-3{
+    background-color:#21ff8e;
 }
-.imagen-3{
-    background-color:#21FF8E;
-}
+
+
 .datos{
     display: flex;
     
@@ -101,7 +122,6 @@ label{
 }
 input[type=submit]{
     margin: 20px;
-    border-radius: 50px;
     width: 100px;
     align-self: center;
 
