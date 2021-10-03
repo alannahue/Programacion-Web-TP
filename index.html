@@ -118,48 +118,48 @@
         </section>
         <section class="curso">
 
-            <div class="formulario__inscripcion">
-                <div class="form1">
-                    <label for="provincias">Seleccione la provincia</label>
-                    <select id="provincias" name="provincias">
-                        <option value="1">Buenos Aires</option>
-                        <option value="2">Córdoba</option>
-                        <option value="3">Entre Ríos</option>
-                    </select>
-                    <label for="nombre__establecimiento">Nombre del establecimiento</label>
-                    <input id="nombre__establecimiento" type="text" name="nombre__establecimiento" placeholder="Ingrese el nombre del establecimiento" required>    
-                    <label for="direccion">Dirección</label>
-                    <input id="direccion" type="text" name="direccion">
-                    <label for="localidad">Localidad</label>
-                    <input id="localidad" type="text" name="localidad">
-                    <label for="mail">E-mail</label>
-                    <input id="mail" type="email" name="email" placeholder="Ingrese su email" required>  
+            <form action="#" method="GET">
+                <h3 class="formulario__titulo">          Busca el curso e inscribite</h3>
+                <div class="formulario__grupo1">
+                <label for="provincia">Seleccione la provincia</label>
+                <select name="provincia">
+                    <option value=“GBA”>GBA</option>
+                    <option value=“Bs_As”>Buenos Aires</option>
+                    <option value=“Sta_Fe”>Santa Fé</option>
+                    <option value=“Córdoba”>Córdoba</option>
+                </select>
+                <p>Nombre del Establecimiento:</p>
+                <p>Dirección:</p>
+                <p>Localidad</p>
+                <p>Provincia</p>
+                <p>Email:</p>
                 </div>
+        
+                <div class="formulario__grupo2">
+                <label for="establecimiento">Seleccione el Establecimiento</label>
+                <select name="establecimiento">
+                    <option value=“Morón”>Morón</option>
+                    <option value=“Ramos”>Ramos Mejia</option>
+                    <option value=“Sjusto”>San Justo</option>
+                    <option value=“Ituzaingo”>Ituzaingo</option>
+                </select>
+        
+                <label for="horarios">horarios y modalidad</label>
+                <select id="horarios" name="horarios">
+                    <option value="1"> 9 hs - online</option>
+                    <option value="2">12 hs - presencial</option>
+                    <option value="3">16 hs - presencial</option>
+                    <option value="4">19 hs - online</option>
+                </select>
+        
+                <label for="precio">Precio</label>
+                <input type="number" name="precio" id="precio">
+        
+                <input type="submit" class="bt__inscribite" value="inscribite"> 
+                </div>
+            </form>
 
-                <div class="form2">
-                    <label for="establecimientos">Selecciona el establecimiento</label>
-                    <select id="establecimientos" name="establecimientos">
-                        <option value="1">Morón</option>
-                        <option value="2">Ramos Mejia</option>
-                        <option value="3">San Justo</option>
-                    </select>
-                    <label for="idioma">Idioma</label>
-                    <select id="idioma" name="idioma">
-                        <option value="1">Inglés</option>
-                        <option value="2">Italiano</option>
-                        <option value="3">Japonés</option>
-                    </select>
-                    <label for="horarios">horarios y modalidad</label>
-                    <select id="horarios" name="horarios">
-                        <option value="1"> 9 hs - online</option>
-                        <option value="2">12 hs - presencial</option>
-                        <option value="3">16 hs - presencial</option>
-                        <option value="4">19 hs - online</option>
-                    </select>
-                    <label for="precio">Precio</label>
-                    <input id="precio" type="number" name="precio">
-                    <input type="submit">
-            </div>
+
 
         </section>
         
